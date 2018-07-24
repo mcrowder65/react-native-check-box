@@ -121,6 +121,7 @@ export default class CheckBox extends Component {
     render() {
         return (
             <TouchableHighlight
+                testID={this.props.testID}
                 style={this.props.style}
                 onPress={()=>this.onClick()}
                 underlayColor='transparent'
